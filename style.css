@@ -1,0 +1,101 @@
+.name {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.mainpart {
+    display: flex;
+    align-items: stretch;
+    width: auto;
+    align-items: stretch;
+}
+
+.leftpart {
+    display: flex;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    align-items: stretch;
+    width: 77%;
+    justify-content: center;
+    padding: 1%;
+}
+
+.rightpart {
+    display: flex;
+    font-size: 20px;
+    background-color: aquamarine;
+    align-items: stretch;
+    width: 33%;
+    justify-content: center;
+    padding: 3%;
+}
+
+.in {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.part1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.part1 {
+    display: flex;
+    background-color: yellow;
+    align-items: stretch;
+    width: 46%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+
+}
+
+.part2 {
+    display: flex;
+    background-color: yellow;
+    align-items: stretch;
+    width: 46%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+
+}
+
+.part3 {
+    display: flex;
+    background-color: yellow;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
+
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
+    font-size: 17px;
+    flex-wrap: wrap;
+    flex-grow: calc(10%);
+}
+
+.footersection1 {
+    display: flex;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+    width: 15%;
+    padding: 2%;
+}
